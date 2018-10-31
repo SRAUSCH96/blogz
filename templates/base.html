@@ -13,16 +13,22 @@
         </style>
     </head>
     <body>
-        <center>
-        <p>
-            <a href='/blog'>Main Blog Page</a>
-            &nbsp;
-        
-            <a href='/newpost'>Add a Blog</a>
-        
-        </p>
-        </center>
-    {% block content %}
-    {% endblock %}
+    <p>
+        <a href='/home'>Home</a>
+        &nbsp;
+        <a href='/blog'>All Posts</a>
+        &nbsp;
+        <a href='/newpost'>New Post</a>
+        &emsp;
+        <a href='/login'>Login</a>
+        &nbsp;
+        <a href='/logout'>Logout</a>
+    </p>
+{% block content %}
+{% endblock %}
     </body>
+
+
+
+    
 </html>
